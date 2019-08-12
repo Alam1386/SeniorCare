@@ -1,0 +1,10 @@
+{
+  "db": {
+    "user": "postgres",
+    "password": "KeyContact&Caregivers",
+    "host": "seniorcare.c4d2ofp8j3ou.us-east-1.rds.amazonaws.com",
+    "port": 5432,
+    "database": "postgres",
+    "schema": "seniorcare"
+  }
+}

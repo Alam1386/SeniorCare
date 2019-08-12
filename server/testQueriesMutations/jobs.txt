@@ -1,0 +1,83 @@
+# Makes a new job posting
+mutation {
+  addJobRequest(input: {
+    key_contact_id: "ThisIsSimonSternKeyContactSeed"
+    basicInformation: {
+      title: "Finding Nemo"
+      start_date: "2003-05-30 11:11:30-07"
+      end_date: "2003-06-18 20:15:40-07"
+      address: "42 Wallaby Way"
+      city: "Sydney"
+      province: "Austrailia?"
+      postal_code: "A1A1A1"
+      hourly_rate: 20
+    }
+    seniorDetails: {
+      fullname: "Marlin"
+      gender: MALE
+      birthdate: "2000-06-18 03:22:01-07"
+      relation: "son"
+      bio: "a clownfish"
+      medical_condition: "sharkphobia"
+      language: "fish"
+    }
+    houseDetails: {
+      cig_smoking: false
+      pets: true
+      cannabis: false
+    }
+    caregiverPreferences: {
+      availability: LIVEIN
+      gender_pref: MALE
+      req_drivers_license: true
+    }
+  }) {
+    message
+  }
+}
+
+#Query Job Posting
+query {
+  getJobPosts {
+    id
+    key_contact_id
+    date_created
+    getBasicInformation {
+      title
+      start_date
+      end_date
+      address
+      city
+      province
+      postal_code
+      hourly_rate
+    }
+    getServiceDetails {
+      job_id
+      service_id
+      getService {
+        id
+        title
+      }
+    }
+    getSeniorDetails {
+      fullname
+      gender
+      birthdate
+      relation
+      bio
+      medical_condition
+      language
+    }
+    getHouseDetails {
+      cig_smoking
+      pets
+      cannabis
+    }
+    getCaregiverPreferences {
+      availability
+      gender_pref
+      req_drivers_license
+    }
+  }
+}

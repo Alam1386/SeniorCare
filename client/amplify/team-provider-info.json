@@ -1,0 +1,19 @@
+{
+    "local": {
+        "awscloudformation": {
+            "AuthRoleName": "seniorcare-aws1-local-20190613124344-authRole",
+            "UnauthRoleArn": "arn:aws:iam::243153610219:role/seniorcare-aws1-local-20190613124344-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::243153610219:role/seniorcare-aws1-local-20190613124344-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "seniorcare-aws1-local-20190613124344-deployment",
+            "UnauthRoleName": "seniorcare-aws1-local-20190613124344-unauthRole",
+            "StackName": "seniorcare-aws1-local-20190613124344",
+            "StackId": "arn:aws:cloudformation:us-east-1:243153610219:stack/seniorcare-aws1-local-20190613124344/68db6560-8dfa-11e9-a07e-0a182a3cd028"
+        },
+        "categories": {
+            "auth": {
+                "seniorcareaws106871de8": {}
+            }
+        }
+    }
+}
