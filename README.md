@@ -6,27 +6,27 @@
 ------------------------------------------------------
 ### About:
 
-Insta News is the second web developemnt project in Red Academy. It is a dynamic web page that contains the top stories from the New York Times. We obtain the top stories from New York Times through using API. we put the URL link using AJAX format in javaScript.
+Seniorcare is a full stack mobile application for the client Senior Care Connect, which was built with five other developers. The App accepts two major clients; the care giver and family member looking for the service. The professionally certified care givers can register in the App and apply for the job. They can apply for multiple jobs and can chat with the person looking for such a service. It is powerfull App that can host thousands of job application and many other useful services dedicated to seniors who are in need of assistance. 
 
-### Programs used in this Project:
+## Technoloogies used: 
 
-* HTML
-* CSS/SCSS/SASS
-* Javascript
-* jQuery
-* Gulp
+* React Native
+* Redux
+* Apollo
+* GraphQL
+* Express
+* PostGreSQL
+* Git
 
+## Software used in this Project:
 
-### Software used in this Project:
+* Visual Studio Code
+* GitHub
+* Google Chrome Developer Tools
 
- * Brackets Text Editor
- * iTerm2
- * Git
- * Google Chrome Developer Tools
+## Developed by:
+Alam Talash & five classmates
 
- ### Developed by: 
- Alam Talash 
+@: RED Academy Toronto
 
- @: RED Academy Toronto 
-
- ### Date: 31 Jan 2019
+#### Date: June 2019
